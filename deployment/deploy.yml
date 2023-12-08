@@ -1,3 +1,4 @@
+---
 - name: Pull Docker image of Calculator
   hosts: all
   vars:
