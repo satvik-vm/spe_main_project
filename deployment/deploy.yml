@@ -13,6 +13,10 @@
         source: pull
     - name: Create new directory
       shell: mkdir -p spe_main_project_ansible
+    - name: Create new directory
+      debug:
+        msg:
+          {{cat /home/satvik/Desktop/spe/repo/mern-social-media/docker-compose.yml}}
     - name: Copy Docker Compose
       copy:
         src: /home/satvik/Desktop/spe/repo/mern-social-media/docker-compose.yml
