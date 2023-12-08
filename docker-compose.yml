@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    # environment:
+    #   - PUID=1000
+    #   - PGID=1000
+    volumes:
+      - /home/satvik/Desktop/spe/repo/mern-social-media/database:/data/db
+    ports:
+      - "27018:27017"
+    restart: unless-stopped
+  server:
+    image: nodejs_backend
+    container_name: server
+    # environment:
+    #   # - PUID=1000
+    #   # - PGID=1000
+    #   - MONGODB_URI=mongodb://mongodb:27018/mern
+    ports:
+      - "3001:3001"
+    external_links:
+      - mongodb
+    restart: unless-stopped
