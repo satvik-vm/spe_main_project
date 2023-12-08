@@ -1,0 +1,23 @@
+- name: Pull Docker image of Calculator
+  hosts: all
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+  tasks:
+    - name: Pull server image
+      docker_image:
+        name: satvikvm/spe_main_project_server:latest
+        source: pull
+    - name: Pull client image
+      docker_image:
+        name: satvikvm/spe_main_project_client:latest
+        source: pull
+    - name: Create new directory
+      shell: mkdir -p spe_main_project_ansible
+    - name: Copy Docker Compose
+      copy:
+        src: /home/satvik/Desktop/spe/repo/mern-social-media
+        dest: /home/satvik/spe_main_project_ansible
+    - name: Run docker compose
+      command: docker-compose up -d
+      args:
+        chdir: /home/satvik/spe_main_project_ansible
