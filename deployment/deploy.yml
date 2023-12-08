@@ -13,7 +13,6 @@
         source: pull
     - name: Create new directory
       shell: mkdir -p spe_main_project_ansible
-      shell: echo $whoami
     - name: Copy Docker Compose
       copy:
         src: /home/satvik/Desktop/spe/repo/mern-social-media/docker-compose.yml
