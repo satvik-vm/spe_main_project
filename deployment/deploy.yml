@@ -22,12 +22,13 @@
       command: docker-compose down
       args:
         chdir: /home/satvik/spe_main_project_ansible
-    - name: Clean docker images
-      command: docker image rm satvikvm/spe_main_project_server satvikvm/spe_main_project_client
-      register: output
-    - name: Print output
-      debug:
-        var: output.stdout_lines
+    - name: Remove docker images
+      docker_image:
+        name: satvikvm/spe_main_project_client:latest
+        state: absent
+      docker_image:
+        name: satvikvm/spe_main_project_server:latest
+        state: absent
     - name: Run docker compose
       command: docker-compose up -d
       args:
