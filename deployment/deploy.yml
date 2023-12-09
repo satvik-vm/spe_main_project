@@ -22,19 +22,16 @@
       command: docker-compose down
       args:
         chdir: /home/satvik/spe_main_project_ansible
-    - name: Remove docker images
+    - name: Get Docker Images
+      command: docker images --format "{{.Repository}}:{{.Tag}}"
+      register: docker_images
+      changed_when: false
+    - name: Delete Docker Images by Common String
       docker_image:
-        name: satvikvm/spe_main_project_client:latest
+        name: "{{ item }}"
         state: absent
-      docker_image:
-        name: satvikvm/spe_main_project_client:latest
-        state: absent
-      docker_image:
-        name: satvikvm/spe_main_project_server:latest
-        state: absent
-      docker_image:
-        name: satvikvm/spe_main_project_server:latest
-        state: absent
+      loop: "{{ docker_images.stdout_lines }}"
+      when: item.startswith('your_common_string')
     - name: Run docker compose
       command: docker-compose up -d
       args:
