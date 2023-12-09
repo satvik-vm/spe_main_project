@@ -4,14 +4,18 @@
   vars:
     ansible_python_interpreter: /usr/bin/python3
   tasks:
-    - name: Pull server image
-      docker_image:
-        name: satvikvm/spe_main_project_server:latest
-        source: pull
-    - name: Pull client image
-      docker_image:
-        name: satvikvm/spe_main_project_client:latest
-        source: pull
+    # - name: Pull server image
+    #   docker_image:
+    #     name: satvikvm/spe_main_project_server:latest
+    #     source: pull
+    # - name: Pull client image
+    #   docker_image:
+    #     name: satvikvm/spe_main_project_client:latest
+    #     source: pull
+    - name: Stop docker compose
+      command: docker-compose down
+      args:
+        chdir: /home/satvik/spe_main_project_ansible
     - name: Create new directory
       shell: mkdir -p spe_main_project_ansible
     - name: Copy Docker Compose
