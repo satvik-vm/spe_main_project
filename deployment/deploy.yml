@@ -25,7 +25,7 @@
     - name: Clean docker images
       command: docker image rm satvikvm/spe_main_project_server satvikvm/spe_main_project_client
     - name: Query docker images
-      command: docker images
+      sh: echo $(docker images)
       # sh: docker images
     - name: Run docker compose
       command: docker-compose up -d
