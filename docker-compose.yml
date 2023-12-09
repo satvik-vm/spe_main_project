@@ -8,11 +8,13 @@ services:
     #   - PGID=1000
     volumes:
       - /home/satvik/Desktop/spe/repo/mern-social-media/database:/data/db
+    ports:
+      - '27017:27017'
     restart: unless-stopped
   server:
     image: nodejs_backend
     container_name: server
-    # environment:
+    # environment:logger.info("Server Running on Port: " + PORT)
     #   # - PUID=1000
     #   # - PGID=1000
     ports:
