@@ -27,7 +27,7 @@
       register: output
     - name: Print output
       debug:
-        var: output
+        var: output.stdout_lines
     - name: Run docker compose
       command: docker-compose up -d
       args:
