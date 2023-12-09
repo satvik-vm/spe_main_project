@@ -12,7 +12,7 @@ services:
       - '27017:27017'
     restart: unless-stopped
   server:
-    image: nodejs_backend
+    image: satvikvm/spe_main_project_server
     container_name: server
     # environment:logger.info("Server Running on Port: " + PORT)
     #   # - PUID=1000
@@ -21,7 +21,7 @@ services:
       - '3001:3001'
     restart: unless-stopped
   client:
-    image: react_frontend
+    image: satvikvm/spe_main_project_client
     container_name: client
     ports:
       - '3000:3000'
