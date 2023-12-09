@@ -14,7 +14,7 @@ function App() {
   const isAuth = Boolean(useSelector((state) => state.token));
 
   return (
-	//?this comment is put here for experimental purposes for the sake of testing image creations and deletion this is the client side
+	//?this comment is put here for experimental purposes for the sake of testing image creations and deletion this is the client side and not the server side
     <div className="app">
       <BrowserRouter>
         <ThemeProvider theme={theme}>
