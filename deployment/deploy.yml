@@ -22,16 +22,6 @@
       command: docker-compose down
       args:
         chdir: /home/satvik/spe_main_project_ansible
-    - name: Get Docker Images
-      command: docker images --format "{{.Repository}}:{{.Tag}}"
-      register: docker_images
-      changed_when: false
-    - name: Delete Docker Images by Common String
-      docker_image:
-        name: "{{ item }}"
-        state: absent
-      loop: "{{ docker_images.stdout_lines }}"
-      when: item.startswith('satvikvm')
     - name: Run docker compose
       command: docker-compose up -d
       args:
