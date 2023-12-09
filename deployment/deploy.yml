@@ -24,9 +24,10 @@
         chdir: /home/satvik/spe_main_project_ansible
     - name: Clean docker images
       command: docker image rm satvikvm/spe_main_project_server satvikvm/spe_main_project_client
-    - name: Query docker images
-      sh: echo $(docker images)
-      # sh: docker images
+      register: output
+    - name: Print output
+      debug:
+        var: output
     - name: Run docker compose
       command: docker-compose up -d
       args:
