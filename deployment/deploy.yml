@@ -18,12 +18,12 @@
       copy:
         src: /home/satvik/Desktop/spe/repo/mern-social-media/docker-compose.yml
         dest: /home/satvik/spe_main_project_ansible/docker-compose.yml
-    - name: Stop docker compose
-      command: docker-compose down
-      args:
-        chdir: /home/satvik/spe_main_project_ansible
-    - name: Clean docker images
-      command: docker image rm satvikvm/spe_main_project_server satvikvm/spe_main_project_client
+    # - name: Stop docker compose
+    #   command: docker-compose down
+    #   args:
+    #     chdir: /home/satvik/spe_main_project_ansible
+    # - name: Clean docker images
+    #   command: docker image rm satvikvm/spe_main_project_server satvikvm/spe_main_project_client
     - name: Run docker compose
       command: docker-compose up -d
       args:
