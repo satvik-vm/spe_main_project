@@ -16,7 +16,7 @@
       shell: mkdir -p spe_main_project_ansible
     - name: Copy Docker Compose
       copy:
-        src: /home/satvik/Desktop/spe/repo/mern-social-media/docker-compose.yml
+        src: /var/lib/jenkins/workspace/spe_main_projectdocker-compose.yml
         dest: /home/satvik/spe_main_project_ansible/docker-compose.yml
     - name: Stop docker compose
       command: docker-compose down
