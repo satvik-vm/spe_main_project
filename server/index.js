@@ -19,6 +19,7 @@ import Post from "./models/Post.js";
 import { users, posts } from "./data/index.js";
 
 /* CONFIGURATIONS */
+//?this comment is put here for experimental purposes
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 dotenv.config();
