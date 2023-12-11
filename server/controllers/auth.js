@@ -8,7 +8,7 @@ log4js.configure({
 	categories: { default: { appenders: ["auth"], level: "info" } },
 });
 
-const logger = log4js.getLogger("cheese");
+const logger = log4js.getLogger("auth");
 
 /* REGISTER USER */
 export const register = async (req, res) => {

@@ -1,0 +1,31 @@
+[2023-12-08T00:33:41.492] [INFO] auth - Using logging function
+[2023-12-08T13:00:16.259] [INFO] auth - Using register function
+[2023-12-08T13:01:34.933] [INFO] auth - Using logging function
+[2023-12-09T11:58:26.287] [INFO] auth - Using register function for Satvik Verma with email satvikverma.2001@gmail.com.
+[2023-12-09T11:58:54.215] [INFO] auth - Using register function for Mukul Gupta with email mukul@gmail.com.
+[2023-12-09T11:59:03.368] [INFO] auth - Using logging function for satvik@gmail.com.
+[2023-12-09T11:59:03.372] [ERROR] auth - User does not exist.
+[2023-12-09T11:59:12.701] [INFO] auth - Using logging function for satvikverma.2001@gmail.com.
+[2023-12-09T11:59:12.746] [ERROR] auth - Invalid credentials.
+[2023-12-09T11:59:17.988] [INFO] auth - Using logging function for satvikverma.2001@gmail.com.
+[2023-12-09T11:59:18.034] [INFO] auth - User logged in successfully for + satvikverma.2001@gmail.com.
+[2023-12-09T11:59:27.966] [INFO] auth - Using logging function for mukul.gupta@gmail.com.
+[2023-12-09T11:59:27.968] [ERROR] auth - User does not exist.
+[2023-12-09T11:59:34.466] [INFO] auth - Using logging function for mukul@gmail.com.
+[2023-12-09T11:59:34.511] [ERROR] auth - Invalid credentials.
+[2023-12-09T11:59:40.694] [INFO] auth - Using logging function for mukul@gmail.com.
+[2023-12-09T11:59:40.738] [INFO] auth - User logged in successfully for + mukul@gmail.com.
+[2023-12-09T12:01:35.604] [INFO] auth - Using register function for Sarthak Malik with email sarthak@gmail.com.
+[2023-12-09T12:01:47.718] [INFO] auth - Using logging function for sarthak.malik@gmail.com.
+[2023-12-09T12:01:47.719] [ERROR] auth - User does not exist.
+[2023-12-09T12:01:58.582] [INFO] auth - Using logging function for sarthak@gmail.com.
+[2023-12-09T12:01:58.626] [ERROR] auth - Invalid credentials.
+[2023-12-09T12:02:03.418] [INFO] auth - Using logging function for sarthak@gmail.com.
+[2023-12-09T12:02:03.463] [INFO] auth - User logged in successfully for + sarthak@gmail.com.
+[2023-12-09T12:04:13.960] [INFO] auth - Using register function for harsh baliyan with email harsh@gmail.com.
+[2023-12-09T12:04:24.405] [INFO] auth - Using logging function for harsh.baliyan@gmail.com.
+[2023-12-09T12:04:24.407] [ERROR] auth - User does not exist.
+[2023-12-09T12:04:31.782] [INFO] auth - Using logging function for harsh@gmail.com.
+[2023-12-09T12:04:31.825] [ERROR] auth - Invalid credentials.
+[2023-12-09T12:04:41.967] [INFO] auth - Using logging function for harsh@gmail.com.
+[2023-12-09T12:04:42.011] [INFO] auth - User logged in successfully for + harsh@gmail.com.
