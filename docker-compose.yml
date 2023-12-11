@@ -4,7 +4,7 @@ services:
     image: mongo
     container_name: mongodb
     volumes:
-      - /home/satvik/Desktop/spe/repo/mern-social-media/database:/data/db
+      - /home/satvik/Desktop/spe/main_project/mern-social-media/database:/data/db
     ports:
       - '27017:27017'
     restart: unless-stopped
