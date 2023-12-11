@@ -1,3 +1,320 @@
 [2023-12-08T00:33:41.492] [INFO] cheese - Using logging function
 [2023-12-08T13:00:16.259] [INFO] cheese - Using register function
 [2023-12-08T13:01:34.933] [INFO] cheese - Using logging function
+[2023-12-11T14:15:43.162] [INFO] auth - Using register function for Mukul Gupta with email Mukul.Gupta@iiitb.ac.in.
+[2023-12-11T14:16:04.880] [INFO] auth - Using logging function for Mukul.Gupta@iiitb.ac.in.
+[2023-12-11T14:16:05.011] [INFO] auth - User logged in successfully for + Mukul.Gupta@iiitb.ac.in.
+[2023-12-11T20:02:00.205] [INFO] auth - Using register function for John Doe with email john.doe@example.com.
+[2023-12-11T20:02:53.787] [INFO] auth - Using register function for John Doe with email john.doe@example.com.
+[2023-12-11T20:04:17.982] [INFO] auth - Using register function for John Doe with email john.doe@example.com.
+[2023-12-11T20:07:01.153] [INFO] auth - Using register function for John Doe with email john.doe@example.com.
+[2023-12-11T20:11:34.260] [INFO] auth - Using register function for John Doe with email john.doe@example.com.
+[2023-12-11T20:11:43.780] [INFO] auth - Using register function for John Doe with email john.doe@example.com.
+[2023-12-11T20:12:16.982] [INFO] auth - Using register function for John Doe with email john.doe@example.com.
+[2023-12-11T20:17:06.434] [INFO] auth - Using register function for John Doe with email john.doe@example.com.
+[2023-12-11T20:19:33.287] [INFO] auth - Using register function for John Doe with email john.doe@example.com.
+[2023-12-11T20:25:35.292] [INFO] auth - Using register function for John Doe with email john.doe@example.com.
+[2023-12-11T22:07:35.431] [INFO] auth - Using register function for Mukul Gupta with email Mukul.Gupta@iiitb.ac.in.
+[2023-12-11T22:08:13.297] [INFO] auth - Using logging function for Mukul.Gupta@iiitb.ac.in.
+[2023-12-11T22:08:13.390] [ERROR] auth - Invalid credentials.
+[2023-12-11T22:08:22.139] [INFO] auth - Using logging function for Mukul.Gupta@iiitb.ac.in.
+[2023-12-11T22:08:22.232] [ERROR] auth - Invalid credentials.
+[2023-12-11T22:08:40.843] [INFO] auth - Using register function for Mukul Gupta with email Mukul.Gupta@iiitb.ac.in.
+[2023-12-11T22:08:49.327] [INFO] auth - Using logging function for Mukul.Gupta@iiitb.ac.in.
+[2023-12-11T22:08:49.419] [ERROR] auth - Invalid credentials.
+[2023-12-11T22:09:03.417] [INFO] auth - Using logging function for Mukul.Gupta@iiitb.ac.in.
+[2023-12-11T22:09:03.508] [ERROR] auth - Invalid credentials.
+[2023-12-11T22:10:55.190] [INFO] auth - Using register function for Mukul Gupta with email mukul.gupta@example.com.
+[2023-12-11T22:10:55.206] [INFO] auth - Using logging function for user@example.com.
+[2023-12-11T22:10:55.210] [ERROR] auth - User does not exist.
+[2023-12-11T22:10:55.213] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T22:10:55.214] [ERROR] auth - User does not exist.
+[2023-12-11T22:10:55.215] [INFO] auth - Using logging function for user@example.com.
+[2023-12-11T22:10:55.216] [ERROR] auth - User does not exist.
+[2023-12-11T22:16:30.067] [INFO] auth - Using register function for Mukul Gupta with email mukul.gupta@example.com.
+[2023-12-11T22:16:30.082] [INFO] auth - Using logging function for user@example.com.
+[2023-12-11T22:16:30.085] [ERROR] auth - User does not exist.
+[2023-12-11T22:16:30.087] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T22:16:30.088] [ERROR] auth - User does not exist.
+[2023-12-11T22:16:30.090] [INFO] auth - Using logging function for user@example.com.
+[2023-12-11T22:16:30.091] [ERROR] auth - User does not exist.
+[2023-12-11T22:18:39.090] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T22:18:39.104] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T22:18:39.160] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T22:18:39.162] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T22:18:39.163] [ERROR] auth - User does not exist.
+[2023-12-11T22:18:39.165] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T22:18:39.218] [ERROR] auth - Invalid credentials.
+[2023-12-11T22:18:57.745] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T22:18:57.759] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T22:18:57.814] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T22:18:57.816] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T22:18:57.817] [ERROR] auth - User does not exist.
+[2023-12-11T22:18:57.818] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T22:18:57.871] [ERROR] auth - Invalid credentials.
+[2023-12-11T22:20:30.189] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T22:20:30.204] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T22:20:30.259] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T22:20:30.261] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T22:20:30.263] [ERROR] auth - User does not exist.
+[2023-12-11T22:20:30.264] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T22:20:30.317] [ERROR] auth - Invalid credentials.
+[2023-12-11T22:24:23.990] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T22:24:23.999] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T22:24:24.053] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T22:24:24.056] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T22:24:24.058] [ERROR] auth - User does not exist.
+[2023-12-11T22:24:24.059] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T22:24:24.112] [ERROR] auth - Invalid credentials.
+[2023-12-11T22:42:09.427] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T22:42:09.436] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T22:42:09.489] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T22:42:09.492] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T22:42:09.493] [ERROR] auth - User does not exist.
+[2023-12-11T22:42:09.494] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T22:42:09.547] [ERROR] auth - Invalid credentials.
+[2023-12-11T22:42:20.364] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T22:42:20.370] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T22:42:20.425] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T22:42:20.427] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T22:42:20.428] [ERROR] auth - User does not exist.
+[2023-12-11T22:42:20.429] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T22:42:20.482] [ERROR] auth - Invalid credentials.
+[2023-12-11T22:53:36.804] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T22:53:36.818] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T22:53:36.873] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T22:53:36.875] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T22:53:36.876] [ERROR] auth - User does not exist.
+[2023-12-11T22:53:36.878] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T22:53:36.931] [ERROR] auth - Invalid credentials.
+[2023-12-11T22:55:28.215] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T22:55:28.220] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T22:55:28.275] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T22:55:28.277] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T22:55:28.278] [ERROR] auth - User does not exist.
+[2023-12-11T22:55:28.280] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T22:55:28.332] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:00:46.453] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:00:46.458] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:00:46.514] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:00:46.516] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:00:46.517] [ERROR] auth - User does not exist.
+[2023-12-11T23:00:46.519] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:00:46.572] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:04:05.526] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:04:05.532] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:04:05.587] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:04:05.589] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:04:05.590] [ERROR] auth - User does not exist.
+[2023-12-11T23:04:05.592] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:04:05.645] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:05:21.937] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:05:21.942] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:05:21.996] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:05:21.998] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:05:22.000] [ERROR] auth - User does not exist.
+[2023-12-11T23:05:22.001] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:05:22.054] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:09:22.035] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:09:22.040] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:09:22.097] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:09:22.099] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:09:22.101] [ERROR] auth - User does not exist.
+[2023-12-11T23:09:22.102] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:09:22.155] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:16:54.933] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:16:54.938] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:16:54.995] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:16:54.997] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:16:54.998] [ERROR] auth - User does not exist.
+[2023-12-11T23:16:55.000] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:16:55.053] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:23:20.361] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:23:20.366] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:23:20.421] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:23:20.424] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:23:20.425] [ERROR] auth - User does not exist.
+[2023-12-11T23:23:20.428] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:23:20.480] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:25:21.978] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:25:21.983] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:25:22.039] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:25:22.041] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:25:22.042] [ERROR] auth - User does not exist.
+[2023-12-11T23:25:22.044] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:25:22.096] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:39:27.632] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-11T23:39:27.699] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:39:27.704] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:39:27.761] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:39:27.763] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:39:27.764] [ERROR] auth - User does not exist.
+[2023-12-11T23:39:27.766] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:39:27.819] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:40:11.222] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-11T23:40:11.286] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:40:11.291] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:40:11.347] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:40:11.349] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:40:11.350] [ERROR] auth - User does not exist.
+[2023-12-11T23:40:11.352] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:40:11.406] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:43:22.025] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-11T23:43:22.091] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:43:22.096] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:43:22.152] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:43:22.154] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:43:22.155] [ERROR] auth - User does not exist.
+[2023-12-11T23:43:22.157] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:43:22.209] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:43:22.263] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-11T23:44:37.217] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:44:37.231] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:44:37.286] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:44:37.289] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:44:37.290] [ERROR] auth - User does not exist.
+[2023-12-11T23:44:37.291] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:44:37.344] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:44:37.400] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-11T23:47:00.733] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:47:00.747] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:47:00.804] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:47:00.806] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:47:00.808] [ERROR] auth - User does not exist.
+[2023-12-11T23:47:00.809] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:47:00.863] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:47:00.916] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-11T23:50:13.186] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:50:13.200] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:50:13.255] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:50:13.257] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:50:13.258] [ERROR] auth - User does not exist.
+[2023-12-11T23:50:13.260] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:50:13.313] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:50:13.367] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-11T23:51:21.520] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:51:21.535] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:51:21.590] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:51:21.592] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:51:21.593] [ERROR] auth - User does not exist.
+[2023-12-11T23:51:21.595] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:51:21.647] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:51:21.702] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-11T23:51:30.712] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:51:30.727] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:51:30.782] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:51:30.785] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:51:30.786] [ERROR] auth - User does not exist.
+[2023-12-11T23:51:30.788] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:51:30.840] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:51:30.893] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-11T23:52:08.190] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:52:08.204] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:52:08.259] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:52:08.261] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:52:08.263] [ERROR] auth - User does not exist.
+[2023-12-11T23:52:08.264] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:52:08.316] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:52:08.370] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-11T23:53:21.337] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:53:21.351] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:53:21.406] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:53:21.408] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:53:21.409] [ERROR] auth - User does not exist.
+[2023-12-11T23:53:21.411] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:53:21.464] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:53:21.518] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-11T23:54:22.578] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:54:22.591] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:54:22.647] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:54:22.649] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:54:22.651] [ERROR] auth - User does not exist.
+[2023-12-11T23:54:22.652] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:54:22.709] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:54:22.764] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-11T23:55:30.750] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:55:30.764] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:55:30.819] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:55:30.821] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:55:30.822] [ERROR] auth - User does not exist.
+[2023-12-11T23:55:30.824] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:55:30.878] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:55:30.932] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-11T23:57:57.467] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:57:57.481] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:57:57.538] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:57:57.540] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:57:57.542] [ERROR] auth - User does not exist.
+[2023-12-11T23:57:57.544] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:57:57.598] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:57:57.651] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-11T23:59:07.906] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-11T23:59:07.919] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:59:07.974] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-11T23:59:07.977] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-11T23:59:07.978] [ERROR] auth - User does not exist.
+[2023-12-11T23:59:07.979] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-11T23:59:08.033] [ERROR] auth - Invalid credentials.
+[2023-12-11T23:59:08.086] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-12T00:00:15.354] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-12T00:00:15.367] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-12T00:00:15.424] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-12T00:00:15.426] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-12T00:00:15.428] [ERROR] auth - User does not exist.
+[2023-12-12T00:00:15.429] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-12T00:00:15.481] [ERROR] auth - Invalid credentials.
+[2023-12-12T00:00:15.535] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-12T00:01:23.188] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-12T00:01:23.201] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-12T00:01:23.256] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-12T00:01:23.258] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-12T00:01:23.260] [ERROR] auth - User does not exist.
+[2023-12-12T00:01:23.261] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-12T00:01:23.314] [ERROR] auth - Invalid credentials.
+[2023-12-12T00:01:23.368] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-12T00:02:53.014] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-12T00:02:53.028] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-12T00:02:53.083] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-12T00:02:53.085] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-12T00:02:53.086] [ERROR] auth - User does not exist.
+[2023-12-12T00:02:53.088] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-12T00:02:53.141] [ERROR] auth - Invalid credentials.
+[2023-12-12T00:02:53.194] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-12T00:04:17.214] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-12T00:04:17.227] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-12T00:04:17.281] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-12T00:04:17.284] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-12T00:04:17.285] [ERROR] auth - User does not exist.
+[2023-12-12T00:04:17.287] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-12T00:04:17.340] [ERROR] auth - Invalid credentials.
+[2023-12-12T00:04:17.393] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-12T00:04:36.056] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-12T00:04:36.070] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-12T00:04:36.125] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-12T00:04:36.127] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-12T00:04:36.129] [ERROR] auth - User does not exist.
+[2023-12-12T00:04:36.130] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-12T00:04:36.182] [ERROR] auth - Invalid credentials.
+[2023-12-12T00:04:36.235] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-12T00:07:31.140] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-12T00:07:31.155] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-12T00:07:31.211] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-12T00:07:31.214] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-12T00:07:31.215] [ERROR] auth - User does not exist.
+[2023-12-12T00:07:31.217] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-12T00:07:31.271] [ERROR] auth - Invalid credentials.
+[2023-12-12T00:07:31.325] [INFO] auth - Using register function for Test User with email testuser@example.com.
+[2023-12-12T00:17:55.475] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-12T00:17:55.502] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-12T00:17:55.558] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-12T00:17:55.561] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-12T00:17:55.563] [ERROR] auth - User does not exist.
+[2023-12-12T00:17:55.564] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-12T00:17:55.617] [ERROR] auth - Invalid credentials.
+[2023-12-12T00:19:11.758] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-12T00:19:11.771] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-12T00:19:11.827] [INFO] auth - User logged in successfully for + mukul.gupta@example.com.
+[2023-12-12T00:19:11.829] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-12T00:19:11.830] [ERROR] auth - User does not exist.
+[2023-12-12T00:19:11.832] [INFO] auth - Using logging function for mukul.gupta@example.com.
+[2023-12-12T00:19:11.885] [ERROR] auth - Invalid credentials.

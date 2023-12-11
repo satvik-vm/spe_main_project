@@ -14,6 +14,7 @@ const logger = log4js.getLogger("auth");
 // POST /api/auth/register
 export const register = async (req, res) => {
   try {
+    console.log(req.body);
     const {
       firstName,
       lastName,
