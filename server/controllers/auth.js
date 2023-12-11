@@ -11,6 +11,7 @@ log4js.configure({
 const logger = log4js.getLogger("auth");
 
 /* REGISTER USER */
+// POST /api/auth/register
 export const register = async (req, res) => {
   try {
     const {
