@@ -1,0 +1,56 @@
+[2023-12-11T17:43:27.134] [INFO] auth - Using register function for manas aggarwal with email manas.ias@upsc.gov.in.
+[2023-12-11T17:45:55.163] [INFO] auth - Using logging function for satvikverma.2001@gmail.com.
+[2023-12-11T17:45:55.214] [INFO] auth - User logged in successfully for satvikverma.2001@gmail.com.
+[2023-12-11T18:38:35.684] [INFO] auth - Using register function for Satvik Verma with email satvikverma.2001@gmail.com.
+[2023-12-11T18:38:41.584] [INFO] auth - Using logging function for satvikverma.2001@gmail.com.
+[2023-12-11T18:38:41.657] [INFO] auth - User logged in successfully for satvikverma.2001@gmail.com.
+[2023-12-11T18:39:16.315] [INFO] auth - Using register function for Mukul Gupta with email mukul@gmail.com.
+[2023-12-11T18:39:22.306] [INFO] auth - Using logging function for mukul.gupta@gmail.com.
+[2023-12-11T18:39:22.308] [ERROR] auth - User does not exist.
+[2023-12-11T18:39:29.828] [INFO] auth - Using logging function for mukul@gmail.com.
+[2023-12-11T18:39:29.894] [ERROR] auth - Invalid credentials.
+[2023-12-11T18:39:38.076] [INFO] auth - Using logging function for mukul@gmail.com.
+[2023-12-11T18:39:38.143] [INFO] auth - User logged in successfully for + mukul@gmail.com.
+[2023-12-11T18:40:13.161] [INFO] auth - Using register function for manas aggarwal with email manas.ias@upsc.gov.in.
+[2023-12-11T18:40:20.516] [INFO] auth - Using logging function for manas.ias@upsc.gov.
+[2023-12-11T18:40:20.518] [ERROR] auth - User does not exist.
+[2023-12-11T18:40:26.236] [INFO] auth - Using logging function for manas.ias@upsc.gov.in.
+[2023-12-11T18:40:26.302] [ERROR] auth - Invalid credentials.
+[2023-12-11T18:40:36.732] [INFO] auth - Using logging function for manas.ias@upsc.gov.in.
+[2023-12-11T18:40:36.797] [INFO] auth - User logged in successfully for manas.ias@upsc.gov.in.
+[2023-12-11T18:42:44.094] [INFO] auth - Using logging function for satvikverma.2001@gmail.com.
+[2023-12-11T18:42:44.152] [INFO] auth - User logged in successfully for satvikverma.2001@gmail.com.
+[2023-12-11T18:42:52.099] [INFO] auth - Using logging function for manas.ias@upsc.gov.in.
+[2023-12-11T18:42:52.166] [INFO] auth - User logged in successfully for manas.ias@upsc.gov.in.
+[2023-12-11T18:43:00.103] [INFO] auth - Using logging function for mukul@gmail.com.
+[2023-12-11T18:43:00.169] [INFO] auth - User logged in successfully for mukul@gmail.com.
+[2023-12-11T18:47:16.640] [INFO] auth - Using logging function for satvikverma.2001@gmail.com.
+[2023-12-11T18:47:16.650] [ERROR] auth - User does not exist.
+[2023-12-11T18:47:41.637] [INFO] auth - Using register function for Satvik Verma with email satvikverma.2001@gmail.com.
+[2023-12-11T18:48:19.852] [INFO] auth - Using logging function for satvik@gmail.com.
+[2023-12-11T18:48:19.854] [ERROR] auth - User does not exist.
+[2023-12-11T18:48:22.938] [INFO] auth - Using logging function for satvikverma.2001@gmail.com.
+[2023-12-11T18:48:23.006] [ERROR] auth - Invalid credentials.
+[2023-12-11T18:48:26.995] [INFO] auth - Using logging function for satvikverma.2001@gmail.com.
+[2023-12-11T18:48:27.065] [INFO] auth - User logged in successfully for satvikverma.2001@gmail.com.
+[2023-12-11T18:48:54.442] [INFO] auth - Using register function for Mukul Gupta with email mukul@gmail.com.
+[2023-12-11T18:49:00.951] [INFO] auth - Using logging function for mukul@gmail.com.
+[2023-12-11T18:49:01.019] [ERROR] auth - Invalid credentials.
+[2023-12-11T18:49:05.089] [INFO] auth - Using logging function for mukul@gmail.com.
+[2023-12-11T18:49:05.156] [INFO] auth - User logged in successfully for mukul@gmail.com.
+[2023-12-11T18:49:32.004] [INFO] auth - Using register function for Manas Aggarwal with email manas.ias@upsc.gov.in.
+[2023-12-11T18:49:39.415] [INFO] auth - Using logging function for manas@gmail.com.
+[2023-12-11T18:49:39.417] [ERROR] auth - User does not exist.
+[2023-12-11T18:49:47.285] [INFO] auth - Using logging function for manas.ias@upsc.gov.in.
+[2023-12-11T18:49:47.350] [ERROR] auth - Invalid credentials.
+[2023-12-11T18:49:52.090] [INFO] auth - Using logging function for manas.ias@upsc.gov.in.
+[2023-12-11T18:49:52.156] [INFO] auth - User logged in successfully for manas.ias@upsc.gov.in.
+[2023-12-11T18:52:25.032] [INFO] index - Server running on Port: 3001.
+[2023-12-11T18:52:57.515] [INFO] auth - Using logging function for satvikverma.2001@gmail.com.
+[2023-12-11T18:52:57.594] [INFO] auth - User logged in successfully for satvikverma.2001@gmail.com.
+[2023-12-11T18:55:26.700] [INFO] index - Server running on Port: 3001.
+[2023-12-11T18:56:02.003] [INFO] auth - Using logging function for mukul@gmail.com.
+[2023-12-11T18:56:02.082] [INFO] auth - User logged in successfully for mukul@gmail.com.
+[2023-12-11T18:58:13.797] [INFO] index - Server running on Port: 3001.
+[2023-12-11T18:58:49.913] [INFO] auth - Using logging function for manas.ias@upsc.gov.in.
+[2023-12-11T18:58:49.995] [INFO] auth - User logged in successfully for manas.ias@upsc.gov.in.

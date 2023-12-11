@@ -4,7 +4,7 @@ import User from "../models/User.js";
 import log4js from 'log4js'
 
 log4js.configure({
-	appenders: { auth: { type: "file", filename: "logs.log" } },
+	appenders: { auth: { type: "file", filename: "logs/logs.log" } },
 	categories: { default: { appenders: ["auth"], level: "info" } },
 });
 
@@ -69,7 +69,7 @@ export const login = async (req, res) => {
 
     const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET);
     delete user.password;
-	logger.info("User logged in successfully for + " + email + ".");
+	logger.info("User logged in successfully for " + email + ".");
     res.status(200).json({ token, user });
   } catch (err) {
     res.status(500).json({ error: err.message });

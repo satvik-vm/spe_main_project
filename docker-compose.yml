@@ -2,21 +2,40 @@ version: "3.8"
 services:
   mongodb:
     image: mongo
-    container_name: mongodb
+    container_name: database
     volumes:
       - /home/satvik/Desktop/spe/main_project/mern-social-media/database:/data/db
-    # ports:
-    #   - '27017:27017'
+    ports:
+      - '27017:27017'
+    networks:
+      mern_app:
+        ipv4_address: 192.168.32.4
     restart: unless-stopped
   server:
     image: satvikvm/spe_main_project_server
     container_name: server
-    # ports:
-    #   - '3001:3001'
+    ports:
+      - '3001:3001'
+    networks:
+      mern_app:
+        ipv4_address: 192.168.32.2
     restart: unless-stopped
+    volumes:
+      - ./server/logs:/logs
+      - ./server/public/assets:/public/assets
   client:
     image: satvikvm/spe_main_project_client
     container_name: client
     ports:
       - '3000:3000'
+    networks:
+      mern_app:
+        ipv4_address: 192.168.32.3
     restart: unless-stopped
+networks:
+  mern_app:
+    name: mern_app
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.32.0/16
