@@ -5,14 +5,14 @@ services:
     container_name: mongodb
     volumes:
       - /home/satvik/Desktop/spe/main_project/mern-social-media/database:/data/db
-    ports:
-      - '27017:27017'
+    # ports:
+    #   - '27017:27017'
     restart: unless-stopped
   server:
     image: satvikvm/spe_main_project_server
     container_name: server
-    ports:
-      - '3001:3001'
+    # ports:
+    #   - '3001:3001'
     restart: unless-stopped
   client:
     image: satvikvm/spe_main_project_client
