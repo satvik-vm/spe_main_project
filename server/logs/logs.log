@@ -115,3 +115,4 @@
 [2023-12-11T19:52:01.732] [ERROR] auth - User does not exist.
 [2023-12-11T19:52:01.735] [INFO] auth - Using logging function for john.wick@example.com.
 [2023-12-11T19:52:01.779] [ERROR] auth - Invalid credentials.
+[2023-12-11T20:06:43.082] [INFO] index - Server running on Port: 3001.
