@@ -77,6 +77,8 @@ describe('Login Route', () => {
       .post('/auth/login')
       .send(invalidCredentials);
 
+	await User.deleteOne({firstName: 'John', lastName: 'Wick'});
+
     expect(response).to.have.status(400);
     expect(response.body).to.have.property('msg').equal('Invalid credentials. ');
   });

@@ -19,6 +19,9 @@ services:
     networks:
       mern_app:
         ipv4_address: 192.168.32.2
+    depends_on:
+      - mongodb
+    command: sh -c "npm run test && npm run start"
     restart: unless-stopped
     volumes:
       - ./server/logs:/logs
