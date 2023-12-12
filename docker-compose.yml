@@ -24,8 +24,8 @@ services:
     # command: sh -c "npm run test && npm run start"
     restart: unless-stopped
     volumes:
-      - ./server/logs:/logs
-      - ./server/public/assets:/public/assets
+      - /home/satvik/Desktop/spe/main_project/mern-social-media/server/logs:/logs
+      - /home/satvik/Desktop/spe/main_project/mern-social-media/server/public/assets:/public/assets
   client:
     image: satvikvm/spe_main_project_client
     container_name: client
