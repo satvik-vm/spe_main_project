@@ -23,8 +23,8 @@
     "nodemon": "^3.0.2"
   },
   "scripts": {
-    "test": "mocha --exit",
-    "start": "node index.js"
+    "start": "NODE_ENV=production node index.js",
+  	"test": "NODE_ENV=test mocha --exit"
   },
   "keywords": [],
   "author": "",

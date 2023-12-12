@@ -18,6 +18,7 @@ import User from "./models/User.js";
 import Post from "./models/Post.js";
 import { users, posts } from "./data/index.js";
 import log4js from 'log4js'
+import { config } from './config.js'
 
 /* CONFIGURATIONS */
 //?this comment is put here for experimental purposes for the
@@ -41,6 +42,8 @@ log4js.configure({
 });
 
 const logger = log4js.getLogger("index");
+const env = process.env.NODE_ENV || 'production';
+const dbUrl= config[env].dbUrl;
 
 /* FILE STORAGE */
 const storage = multer.diskStorage({
@@ -65,7 +68,8 @@ app.use("/posts", postRoutes);
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 6001;
 mongoose
-  .connect(process.env.MONGO_URL, {
+//   .connect(process.env.MONGO_URL, {
+	.connect(dbUrl, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })

@@ -299,3 +299,57 @@
 [2023-12-12T11:47:46.354] [INFO] auth - Using logging function for john.wick@example.com.
 [2023-12-12T11:47:46.420] [ERROR] auth - Invalid credentials.
 [2023-12-12T11:47:47.268] [INFO] index - Server running on Port: 3001.
+[2023-12-12T22:30:13.255] [INFO] auth - Using logging function for Manan.Patel@iiitb.ac.in.
+[2023-12-12T22:30:15.242] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-12T22:30:17.247] [INFO] auth - Using logging function for Manan.Patel@iiitb.ac.in.
+[2023-12-12T22:30:19.251] [INFO] auth - Using logging function for Manan.Patel@iiitb.ac.in.
+[2023-12-12T22:30:21.254] [INFO] auth - Using logging function for Manan.Patel@iiitb.ac.in.
+[2023-12-12T22:30:23.258] [INFO] auth - Using logging function for Manan.Patel@iiitb.ac.in.
+[2023-12-12T22:30:25.324] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-12T22:30:27.260] [INFO] auth - Using logging function for john.wick@example.com.
+[2023-12-12T22:31:12.788] [INFO] auth - Using logging function for Manan.Patel@iiitb.ac.in.
+[2023-12-12T22:31:14.774] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-12T22:31:35.941] [INFO] auth - Using logging function for Manan.Patel@iiitb.ac.in.
+[2023-12-12T22:31:49.701] [INFO] auth - Using logging function for Manan.Patel@iiitb.ac.in.
+[2023-12-12T22:32:22.289] [INFO] auth - Using logging function for Manan.Patel@iiitb.ac.in.
+[2023-12-12T22:33:23.182] [INFO] auth - Using logging function for Manan.Patel@iiitb.ac.in.
+[2023-12-12T22:33:53.234] [INFO] auth - Using logging function for Manan.Patel@iiitb.ac.in.
+[2023-12-12T22:36:16.678] [INFO] index - Server running on Port: 3001.
+[2023-12-12T22:36:16.715] [INFO] auth - Using logging function for Manan.Patel@iiitb.ac.in.
+[2023-12-12T22:36:16.724] [ERROR] auth - User does not exist.
+[2023-12-12T22:36:16.737] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-12T22:36:16.739] [ERROR] auth - User does not exist.
+[2023-12-12T22:36:16.745] [INFO] auth - Using logging function for Manan.Patel@iiitb.ac.in.
+[2023-12-12T22:36:16.747] [ERROR] auth - User does not exist.
+[2023-12-12T22:36:16.753] [INFO] auth - Using logging function for Manan.Patel@iiitb.ac.in.
+[2023-12-12T22:36:16.755] [ERROR] auth - User does not exist.
+[2023-12-12T22:36:16.760] [INFO] auth - Using logging function for Manan.Patel@iiitb.ac.in.
+[2023-12-12T22:36:16.762] [ERROR] auth - User does not exist.
+[2023-12-12T22:36:16.767] [INFO] auth - Using logging function for Manan.Patel@iiitb.ac.in.
+[2023-12-12T22:36:16.770] [ERROR] auth - User does not exist.
+[2023-12-12T22:36:16.839] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-12T22:36:16.864] [INFO] auth - Using logging function for john.wick@example.com.
+[2023-12-12T22:36:16.934] [INFO] auth - User logged in successfully for john.wick@example.com.
+[2023-12-12T22:36:16.938] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-12T22:36:16.940] [ERROR] auth - User does not exist.
+[2023-12-12T22:36:16.944] [INFO] auth - Using logging function for john.wick@example.com.
+[2023-12-12T22:36:17.011] [ERROR] auth - Invalid credentials.
+[2023-12-12T22:37:08.590] [INFO] index - Server running on Port: 3001.
+[2023-12-12T22:37:08.689] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-12T22:37:08.715] [INFO] auth - Using logging function for john.wick@example.com.
+[2023-12-12T22:37:08.788] [INFO] auth - User logged in successfully for john.wick@example.com.
+[2023-12-12T22:37:08.793] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-12T22:37:08.796] [ERROR] auth - User does not exist.
+[2023-12-12T22:37:08.800] [INFO] auth - Using logging function for john.wick@example.com.
+[2023-12-12T22:37:08.867] [ERROR] auth - Invalid credentials.
+[2023-12-12T22:37:27.537] [INFO] index - Server running on Port: 3001.
+[2023-12-12T22:37:27.634] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-12T22:37:27.658] [INFO] auth - Using logging function for john.wick@example.com.
+[2023-12-12T22:37:27.732] [INFO] auth - User logged in successfully for john.wick@example.com.
+[2023-12-12T22:37:27.738] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-12T22:37:27.740] [ERROR] auth - User does not exist.
+[2023-12-12T22:37:27.744] [INFO] auth - Using logging function for john.wick@example.com.
+[2023-12-12T22:37:27.811] [ERROR] auth - Invalid credentials.
+[2023-12-12T17:11:02.628] [INFO] index - Server running on Port: 3001.
+[2023-12-12T17:11:44.107] [INFO] auth - Using logging function for manas.ias@upsc.gov.in.
+[2023-12-12T17:11:44.202] [INFO] auth - User logged in successfully for manas.ias@upsc.gov.in.
