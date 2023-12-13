@@ -4,7 +4,7 @@ services:
     image: mongo
     container_name: database
     volumes:
-      - /home/satvik/Desktop/spe/main_project/mern-social-media/database:/data/db
+      - ./database:/data/db
     ports:
       - '27017:27017'
     networks:
@@ -19,13 +19,10 @@ services:
     networks:
       mern_app:
         ipv4_address: 192.168.32.2
-    # depends_on:
-    #   - mongodb
-    # command: sh -c "npm run test && npm run start"
     restart: unless-stopped
     volumes:
-      - /home/satvik/Desktop/spe/main_project/mern-social-media/server/logs:/logs
-      - /home/satvik/Desktop/spe/main_project/mern-social-media/server/public/assets:/public/assets
+      - ./server/logs:/logs
+      - ./server/public/assets:/public/assets
   client:
     image: satvikvm/spe_main_project_client
     container_name: client
