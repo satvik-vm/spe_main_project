@@ -361,3 +361,23 @@
 [2023-12-12T17:25:08.895] [INFO] auth - Using logging function for mukul@gmail.com.
 [2023-12-12T17:25:08.962] [INFO] auth - User logged in successfully for mukul@gmail.com.
 [2023-12-12T17:34:59.097] [INFO] index - Server running on Port: 3001.
+[2023-12-12T17:42:02.550] [INFO] index - Server running on Port: 3001.
+[2023-12-12T17:42:34.577] [INFO] auth - Using logging function for satvikverma.2001@gmail.com.
+[2023-12-12T17:42:34.660] [INFO] auth - User logged in successfully for satvikverma.2001@gmail.com.
+[2023-12-12T23:55:10.431] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-12T23:55:10.463] [INFO] auth - Using logging function for john.wick@example.com.
+[2023-12-12T23:55:10.540] [INFO] auth - User logged in successfully for john.wick@example.com.
+[2023-12-12T23:55:10.546] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-12T23:55:10.549] [ERROR] auth - User does not exist.
+[2023-12-12T23:55:10.553] [INFO] auth - Using logging function for john.wick@example.com.
+[2023-12-12T23:55:10.621] [ERROR] auth - Invalid credentials.
+[2023-12-12T23:57:30.555] [INFO] index - Server running on Port: 3001.
+[2023-12-12T23:57:30.655] [INFO] auth - Using register function for John Wick with email john.wick@example.com.
+[2023-12-12T23:57:30.681] [INFO] auth - Using logging function for john.wick@example.com.
+[2023-12-12T23:57:30.756] [INFO] auth - User logged in successfully for john.wick@example.com.
+[2023-12-12T23:57:30.762] [INFO] auth - Using logging function for nonexistentuser@example.com.
+[2023-12-12T23:57:30.765] [ERROR] auth - User does not exist.
+[2023-12-12T23:57:30.769] [INFO] auth - Using logging function for john.wick@example.com.
+[2023-12-12T23:57:30.836] [ERROR] auth - Invalid credentials.
+[2023-12-13T07:55:44.077] [INFO] index - Server running on Port: 3001.
+[2023-12-13T10:47:19.504] [INFO] index - Server running on Port: 3001.
