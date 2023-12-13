@@ -75,7 +75,7 @@ mongoose
   })
   .then(() => {
     app.listen(PORT, () => {
-		console.log(`Server running on Port: ${PORT}`);
+		console.log(`Server Port: ${PORT}`);
 		logger.info("Server running on Port: " + PORT + ".")
 	})
 
