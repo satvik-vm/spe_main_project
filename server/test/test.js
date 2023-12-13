@@ -2,16 +2,12 @@ import chai from 'chai';
 import chaiHttp from 'chai-http';
 import app from '../index.js';
 import User from '../models/User.js';
-// import express from "express";
-
-// const app = express();
 
 chai.use(chaiHttp);
 
 const assert = chai.assert;
 
 describe('Register Route', () => {
-	// Example test case for a successful registration
 	it('should register a new user', async () => {
 		const newUser = {
 			firstName: 'John',
