@@ -43,7 +43,7 @@ log4js.configure({
 const logger = log4js.getLogger("index");
 const env = process.env.NODE_ENV || 'production';
 const dbUrl= config[env].dbUrl;
-const PORT = config[env].PORT || 3001;
+// const PORT = config[env].PORT || 3001;
 
 /* FILE STORAGE */
 const storage = multer.diskStorage({
@@ -66,7 +66,7 @@ app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
 
 /* MONGOOSE SETUP */
-// const PORT = process.env.PORT || 6001;
+const PORT = process.env.PORT || 6001;
 mongoose
 //   .connect(process.env.MONGO_URL, {
 	.connect(dbUrl, {
