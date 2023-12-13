@@ -8,10 +8,12 @@
       docker_image:
         name: satvikvm/spe_main_project_server:latest
         source: pull
+        force_source: yes
     - name: Pull client image
       docker_image:
         name: satvikvm/spe_main_project_client:latest
         source: pull
+        force_source: yes
     - name: Create new directory
       shell: mkdir -p spe_main_project_ansible
     - name: Copy Docker Compose
