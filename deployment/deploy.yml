@@ -10,7 +10,7 @@
         source: pull
     - name: Pull client image
       docker_image:
-        name: /spe_main_project_client:latest
+        name: satvikvm/spe_main_project_client:latest
         source: pull
     - name: Create new directory
       shell: mkdir -p spe_main_project_ansible
