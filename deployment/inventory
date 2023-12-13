@@ -1,1 +1,5 @@
+[local]
 localhost ansible_user=satvik
+
+[remote]
+192.168.1.4 ansible_user=satvik ansible_ssh_pass=SatvikVerma
