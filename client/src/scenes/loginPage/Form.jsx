@@ -130,7 +130,7 @@ const Form = () => {
             {isRegister && (
               <>
                 <TextField
-                  label="First Name Please"
+                  label="First Name"
                   onBlur={handleBlur}
                   onChange={handleChange}
                   value={values.firstName}
